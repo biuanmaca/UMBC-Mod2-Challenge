@@ -30,6 +30,17 @@ now deprecated code remains for reference purposes.  The new processing time com
 
 ![RefactoredCodeSpeed](https://user-images.githubusercontent.com/91292960/136720062-52712868-6c88-4f39-957c-826ee030dfd1.png)
 
+## Summary
+
+The refactored code greatly improved the performance of the code.  For such a small data set, this improvement,
+though noticeable, was not necessary as the speed of the old code was acceptable.  The old code however is
+easier to follow and less complicated in some ways.
+
+Since the original code would be slowed further and further the larger the data set were to become or the 
+larger the number of stocks in the selection (therefore increasing the number of times the code needed to loop
+through all the data), scaling this up would quickly create a performace that was grossly unsatisfactory and
+the refactored code would be absolutely needed.
+
 ## Results
 
 The original aim was to compare and contrast the selection of stocks to determine the best stock to choose.
